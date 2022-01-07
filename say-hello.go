@@ -1,7 +1,7 @@
 package say_hello
 
-func SayHello(name string) string {
-	return "Hello " + name
+func SayHello(name, country string) string {
+	return "Hello " + name + ", Im' from " + country
 }
 
 func SayHai(name string) string {
